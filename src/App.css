@@ -1,0 +1,85 @@
+body{
+  background-color: rgb(233, 227, 219)!;
+}
+.nav{
+  background-color: #282c34 !important;
+  color: whitesmoke !important;
+  height: 50px;
+  /* margin-top: 0px; */
+  margin-left: 4px;
+  margin-right: 4px;
+
+}
+.container{
+  width: 150px;
+  /* height: 20px; */
+  /* right: 20px; */
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.product{
+  background-color: rgb(111, 170, 222);
+  
+}
+.icon{
+
+  font-size: 25px;
+  background-color: #2a2c2c;
+  padding: 3px;
+  margin-left: 25px;
+
+}
+.btn1{
+
+  width: 100px;
+}
+.btn2{
+  height: 35px;
+  width: 120px;
+  margin-top: 3px;
+  padding: 2px;
+  text-align: center;
+  margin-left: 800px;
+
+
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
